@@ -2,34 +2,61 @@
 
                      
 
-   DJANGO_PROJECT/
-├── backend/			          - basic Django app configurations  
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── documents/                                              -backend for processing the pdf and question 
-│   ├── migrations/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── tests.py
-│   ├── text_processing.py
-│   ├── urls.py
-│   └── views.py
-├── frontend/				- frontend folder 
-├── media/                                                        - contains the uploaded documents 
-├── .env                                                             - contains secret api keys (insert your open ai api key here)
-├── docker-compose.yml                                - orchestrates db and web containers together
-├── Dockerfile                                                   - defines the web container image 
-├── entrypoint.sh                                             -bash file to automate migrations
-├── init-db.sql                                                    -example structure of table 
-├── manage.py                                                 -helps to interact the Django project 
-├── README.md                                              -contains info on how to use repo 
-└── requirements.txt                                         -contains all required python libraries
+ DJANGO_PROJECT/
+   
+    ├── backend/			          - basic Django app configurations 
+    
+        │   ├── __init__.py
+        
+        │   ├── asgi.py
+        
+        │   ├── settings.py
+        
+        │   ├── urls.py
+        
+        │   └── wsgi.py
+
+    ├── documents/                                              -backend for processing the pdf and question 
+    
+        │   ├── migrations/
+        
+        │   ├── __init__.py
+        
+        │   ├── admin.py
+        
+        │   ├── apps.py
+        
+        │   ├── models.py
+        
+        │   ├── serializers.py
+        
+        │   ├── tests.py
+        
+        │   ├── text_processing.py
+        
+        │   ├── urls.py
+        
+        │   └── views.py
+
+    ├── frontend/				- frontend folder 
+    
+    ├── media/                                                        - contains the uploaded documents 
+    
+    ├── .env                                                             - contains secret api keys (insert your open ai api key here)
+    
+    ├── docker-compose.yml                                - orchestrates db and web containers together
+    
+    ├── Dockerfile                                                   - defines the web container image 
+    
+    ├── entrypoint.sh                                             -bash file to automate migrations
+    
+    ├── init-db.sql                                                    -example structure of table 
+    
+    ├── manage.py                                                 -helps to interact the Django project 
+    
+    ├── README.md                                              -contains info on how to use repo 
+    
+    └── requirements.txt                                         -contains all required python libraries
 
 ![image](https://github.com/user-attachments/assets/ed09b389-2bc2-4363-acf9-3bcc4b98fb39)
 
@@ -59,8 +86,7 @@ Additional functionalities ->
 2. if you refresh the page database gets cleared and you have a new session  
 3. Frontend is not containerized in docker whereas backend and docker are .
 
-Thanks , 
- Harsh 
+
 
 
      
